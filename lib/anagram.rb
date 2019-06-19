@@ -13,7 +13,7 @@ class Anagram
     matched_array = []
     matched_array = array.map { |word|
       word_array = word.split("")
-      
+
       if word_array.sort == anagram_array.sort
         word
         else
