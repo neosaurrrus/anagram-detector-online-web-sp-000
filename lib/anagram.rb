@@ -15,9 +15,7 @@ class Anagram
       word_array = word.split("")
 
       if word_array.sort == anagram_array.sort
-        word
-        else
-          break
+        return word
       end
      }
      puts "#{matched_array} is matched array"
