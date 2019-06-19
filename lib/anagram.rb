@@ -5,7 +5,13 @@ class Anagram
     @anagram = anagram
   end # of method
 
-  def match
+  def match(array)
+    #make hash of anagram with a count
+
+    # loop through each word in array
+    
+    # push word if hash balances
+
 
 end # of Class
 
