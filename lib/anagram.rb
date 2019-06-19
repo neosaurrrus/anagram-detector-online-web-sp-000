@@ -16,7 +16,8 @@ class Anagram
       sorted_word_array = word_array.sort
       if sorted_word_array == sorted_anagram_array
         word
-      else
+        else
+          break
       end
      }
      puts "#{matched_array} is matched array"
