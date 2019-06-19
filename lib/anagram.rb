@@ -14,7 +14,7 @@ class Anagram
     array.each { |word|
       word_array = word.split("")
       puts "#{word_array.sort.join} #{anagram_array.sort.join}"
-      if word_array.sort.join == anagram_array.sort.join
+      if word_array.sort == anagram_array.sort
         matched_array << word
       end
      }
