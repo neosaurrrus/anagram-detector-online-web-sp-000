@@ -6,10 +6,10 @@ class Anagram
   end # of method
 
   def match(array)
-    #make hash of anagram with a count
-
-    # loop through each word in array
-
+    #make array of anagram
+    anagram_array = @anagram.split("")
+    sorted.anagram_array = anagram_array.sort
+    puts anagram_array
     # push word if hash balances
   end # of method
 end # of Class
