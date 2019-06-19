@@ -15,9 +15,8 @@ class Anagram
       word_array = word.split("")
       sorted_word_array = word_array.sort
       if sorted_word_array == sorted_anagram_array
-        return word
+        word
       else
-        break
       end
      }
      puts matched_array
