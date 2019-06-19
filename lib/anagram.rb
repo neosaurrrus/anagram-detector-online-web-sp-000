@@ -6,11 +6,15 @@ class Anagram
   end # of method
 
   def match(array)
+    
     #make array of anagram
     anagram_array = @anagram.split("")
     sorted_anagram_array = anagram_array.sort
-    puts sorted_anagram_array
-    # push word if hash balances
+
+    matched_array = array.map { |word|
+      word
+     }
+     puts matched_array
   end # of method
 end # of Class
 
