@@ -9,7 +9,7 @@ class Anagram
     #make hash of anagram with a count
 
     # loop through each word in array
-    
+
     # push word if hash balances
 
 
