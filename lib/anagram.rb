@@ -8,7 +8,7 @@ class Anagram
   def match(array)
     #make array of anagram
     anagram_array = @anagram.split("")
-    sorted_anagram_array = anagram_array.sort
+    sorted_anagram_array = anagram_array.sort()
     puts anagram_array
     # push word if hash balances
   end # of method
