@@ -11,8 +11,7 @@ class Anagram
     # loop through each word in array
 
     # push word if hash balances
-
-
+  end # of method
 end # of Class
 
 
