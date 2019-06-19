@@ -9,7 +9,7 @@ class Anagram
     #make array of anagram
     anagram_array = @anagram.split("")
     sorted_anagram_array = anagram_array.sort
-    puts anagram_array
+    puts sorted_anagram_array
     # push word if hash balances
   end # of method
 end # of Class
