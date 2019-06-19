@@ -10,7 +10,7 @@ class Anagram
     #make array of anagram
     anagram_array = @anagram.split("")
     sorted_anagram_array = anagram_array.sort
-
+    matched_array = []
     matched_array = array.map { |word|
       word_array = word.split("")
       sorted_word_array = word_array.sort
