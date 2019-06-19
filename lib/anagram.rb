@@ -5,6 +5,8 @@ class Anagram
     @anagram = anagram
   end # of method
 
+  def match
+
 end # of Class
 
 
