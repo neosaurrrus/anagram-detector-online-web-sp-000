@@ -11,11 +11,11 @@ class Anagram
     anagram_array = @anagram.split("")
     puts "anagram is #{@anagram}... array is: #{array}"
     matched_array = []
-    matched_array = array.filter { |word|
+    array.each { |word|
       word_array = word.split("")
 
       if word_array.sort == anagram_array.sort
-        return word
+        matched_array << word
       end
      }
      puts "#{matched_array} is matched array"
