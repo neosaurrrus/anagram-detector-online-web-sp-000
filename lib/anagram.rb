@@ -12,7 +12,13 @@ class Anagram
     sorted_anagram_array = anagram_array.sort
 
     matched_array = array.map { |word|
-      word
+      word_array = word.split("")
+      sorted_word_array = word_array.sort
+      if sorted_word_array == sorted_anagram_array
+        return word
+      else
+        break
+      end
      }
      puts matched_array
   end # of method
