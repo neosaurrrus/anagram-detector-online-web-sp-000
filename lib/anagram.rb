@@ -19,7 +19,7 @@ class Anagram
       end
      }
      puts "#{matched_array} is matched array"
-     matched_array.length > 0 ? [] : matched_array
+     matched_array
   end # of method
 end # of Class
 
