@@ -6,7 +6,7 @@ class Anagram
   end # of method
 
   def match(array)
-    
+
     #make array of anagram
     anagram_array = @anagram.split("")
     sorted_anagram_array = anagram_array.sort
